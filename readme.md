@@ -1,6 +1,6 @@
 # Power Trading Firm - Technical Assignment (Trading & Portfolio Management Team)
 
-This repo is my solution to the take home technical assignment for a retail power trading company for a __power trading analyst__ role. My submission was well done and the best out of all the candidates (I was informed). However, the day before my presentation at their office, a senior employee (a software engineer) had requested to lateral into the role, taking the headcount, and I was rejected. Very bad luck.
+This repo is my solution to the take home technical assignment for a retail power trading company for a __power trading analyst__ role. My submission was well done and the best out of all the candidates (I was informed). However, the day before my presentation at their office, a senior employee (a software engineer) had requested to lateral into the role, taking the headcount, and I was rejected. Despite this happening, they went ahead with the presentation, only choosing to inform me a day after.
 
 Given the effort put into this assignment: I am thus posting this for any power-trading related roles. The answers and code are in `answers.ipynb`.
 
