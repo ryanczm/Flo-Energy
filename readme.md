@@ -1,6 +1,6 @@
 # Power Trading Firm - Technical Assignment (Trading & Portfolio Management Team)
 
-This repo is my solution to the take home technical assignment for a retail power trading company (buy in wholesale market, sell in retail market) for a __power trading analyst__ role. I was informed, upon rejection, that one day before my presentation to the company (of this assignment), a senior member of the team had requested a lateral transfer from a software engineer role into this role. Thus, there was no more headcount for the role. This was despite 3 rounds of interviews and also despite the fact that my solution was the most well-answered out of all the applicants and they were very happy with my technical/data analysis skills in SQL and Python.
+This repo is my solution to the take home technical assignment for a retail power trading company (buy in wholesale market, sell in retail market) for a __power trading analyst__ role. I was informed, upon rejection, that one day before my presentation to the company (of this assignment), a senior member of the team had requested a lateral transfer from a software engineer role into this role. Thus, there was no more headcount for the role. This was despite 3 rounds of interviews and also despite the fact that my solution was the most well-answered out of all the applicants by some distance, and they were very happy with my technical/data analysis skills in SQL and Python.
 
 I am thus posting this for any power-trading related roles. The answers and code are in `answers.ipynb`.
 
@@ -11,11 +11,11 @@ As discussed during your first interview, the Trading and Portfolio Management t
 
 * _Spot prices_ are the half hourly realized market prices (SGD per MWh) for electricity in Singapore. This market is operated by the EMC and creates a price for each half hour for generators to sell their energy and end consumers or retailers to buy their electricity demand for that particular half hour period. The prices are capped at a maximum of 4500 SGD per MWh, negative prices for oversupply rarely happen because of the low generation share of renewable energy. There are quite a few safety mechanisms in place (e.g. demand response) to prevent these price spikes to the maximum from happening, but they do occur from time to time and tend to cluster. They are difficult to predict by nature, usually the result of a combination of high demand resulting from weather circumstances and undersupply due to maintenance or outages, and can have a large impact on Flo’s profitability.
 * _Futures price_ settlements typically represent the latest market consensus outlook (SGD per MWh) on what the average of spot prices is going to be between a particular start and end date (e.g. Q1 '24). Flo uses these futures prices to offer customers a contract price for a certain period. In Singapore these contracts usually trade for a range of quarters, but the underlying month averages may vary quite a bit due to e.g. weather conditions and the number of public holidays.
-● Consumption data are typically received in half hourly kWh values. Reminder: 1 MWh = 1000 kWh.
+* Consumption data are typically received in half hourly kWh values. Reminder: 1 MWh = 1000 kWh.
 
 # Questions
 
-1. Treating the SpotPrices_EMC CSV like it is a table named spotprices, write a SQL query to analyse the average, min and max price and demand values per year-month combination for 2022 and 2023
+1. Treating the SpotPrices_EMC CSV like it is a table named spotprices, write a SQL query to analyse the average, min and max price and demand values per year-month combination for 2022 and 2023.
 
 ---
 
